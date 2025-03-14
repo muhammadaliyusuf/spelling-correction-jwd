@@ -8,13 +8,13 @@ This spelling correction application is built using the Flask framework and impl
 
 ## Application Overview
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
   <img src="https://github.com/muhammadaliyusuf/spelling-correction-jwd/blob/main/.ApplicationOverview/dashboard.png" style="width: 48%; height: auto;">
 </div>
 <br>
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
-  <img src="https://github.com/muhammadaliyusuf/spelling-correction-jwd/blob/main/.ApplicationOverview/correct-keyword.png" style="width: 48%; height: auto;">
   <img src="https://github.com/muhammadaliyusuf/spelling-correction-jwd/blob/main/.ApplicationOverview/wrong-keyword.png" style="width: 48%; height: auto;">
+  <img src="https://github.com/muhammadaliyusuf/spelling-correction-jwd/blob/main/.ApplicationOverview/correct-keyword.png" style="width: 48%; height: auto;">
 </div>
 
 ## Features
