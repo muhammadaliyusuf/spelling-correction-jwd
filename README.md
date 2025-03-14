@@ -87,23 +87,23 @@ This spelling correction application is built using the Flask framework and impl
 ```
 spelling-correction-jwd/
 │
-├── app-serial.py           # Main Flask application without multiprocessing
-├── app-paralel.py          # Main Flask application with multiprocessing
-├── requirements.txt        # List of dependencies
-├── static/                 # Folder for static files (CSS, JS, etc.)
+├── app-serial.py                       # Main Flask application without multiprocessing
+├── app-paralel.py                      # Main Flask application with multiprocessing
+├── requirements.txt                    # List of dependencies
+├── static/                             # Folder for static files (CSS, JS, etc.)
 │   ├── css/...
 │   ├── fonts/...
 │   ├── img/...
 │   ├── js/...
 │   └── scss/...
-├── templates/              # Folder for HTML templates
+├── templates/                          # Folder for HTML templates
 │   ├── index.html
 │   └── result.html
-├── models/                 # Folder for spelling correction models
-│   └── jarowinklerdistance.py  # Implementation of JWD algorithm
-├── utils/                  # Folder for utility functions
-│   └── preprocessing.py    # Text preprocessing functions
-└── data/                   # Folder for datasets
+├── models/                             # Folder for spelling correction models
+│   └── jarowinklerdistance.py          # Implementation of JWD algorithm
+├── utils/                              # Folder for utility functions
+│   └── preprocessing.py                # Text preprocessing functions
+└── data/                               # Folder for datasets
     ├── 30k-english-vocabulary.txt
     ├── 61434-indonesiawordlist.txt
     ├── stopword-bahasa.txt
@@ -123,7 +123,7 @@ Contributions are always welcome. Here are the steps to contribute:
 
 ## License
 
-This project is created for educational purpose as the requirement to graduate in Informatics Engineering at Universitas Trunojoyo Madura.
+This project is created for educational purpose as the requirement to graduate in Informatics Engineering at **_Universitas Trunojoyo Madura_**.
 
 ## Contact
 
