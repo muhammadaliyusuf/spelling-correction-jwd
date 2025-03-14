@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portal Berita Pariwisata</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" href="static/fonts/line-icons.css">    
+    <!-- Animate -->
+    <link rel="stylesheet" href="static/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="static/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="static/css/responsive.css">
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+        <div class="container">    
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="container">      
+          <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+              <div class="contents">
+                <h2 class="head-title">Portal Berita<br>Pariwisata Madura</h2>
+                <p>Jendala Informasi Seputar Dunia Berita Pariwisata Madura</p>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+              <div class="intro-img">
+                <img class="img-fluid" src="static/img/intro-mobile.png" alt="">
+              </div>            
+            </div>
+          </div> 
+        </div> 
+      </div>
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <section id="services" class="section-padding">
+      <div class="container">
+        <!-- Search Engine Start -->
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Temukan Sekarang</h2>
+          <form action="/result" method="post">
+            <div class="search-engine">
+              <input type="text" name="search" size="40" placeholder="Temukan yang anda cari...." autocomplete="off">
+              <button type="submit" name="cari">Cari</button>
+            </div>
+          </form>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <!-- Search Engine End -->
+
+        <!-- table Start -->
+
+        <table class="table table-light">
+          <thead>
+            <tr style="color: white;">
+              <th scope="col">Tanggal</th>
+              <th scope="col">Judul</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for i in beritapariwisata %}
+            <tr>
+              <td scope="col">{{ i[2] }}</td>
+              <td scope="col"><a style="color: blue;" href="{{ i[1] }}" target="_blank" rel="noopener noreferrer">{{ i[3] }}</a></td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+
+        <!-- table End -->
+
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer id="footer" class="footer-area section-padding">
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="copyright-content">
+                <p>180411100135 - Muhammad Ali Yusuf</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </footer> 
+    <!-- Footer Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-arrow-up"></i>
+    </a>
+    
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="static/js/jquery-min.js"></script>
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/owl.carousel.min.js"></script>
+    <script src="static/js/wow.js"></script>
+    <script src="static/js/jquery.nav.js"></script>
+    <script src="static/js/scrolling-nav.js"></script>
+    <script src="static/js/jquery.easing.min.js"></script>  
+    <script src="static/js/main.js"></script>
+    <script src="static/js/form-validator.min.js"></script>
+    <script src="static/js/contact-form-script.min.js"></script>
+      
+  </body>
+</html>

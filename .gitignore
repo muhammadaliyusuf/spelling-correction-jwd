@@ -1,0 +1,27 @@
+# Virtual environment
+skripsi-env/
+.venv/
+env/
+venv/
+
+# Bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# IDE & editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.sqlite3
+
+# Logs
+logs/
+*.log
