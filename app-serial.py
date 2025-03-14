@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, make_response, session
 from flask_mysqldb import MySQL
-from jarowinklerdistance import *
-from preprocessing import *
+from models.jarowinklerdistance import *
+from utils.preprocessing import *
 import time
 # from math import floor, ceil
 

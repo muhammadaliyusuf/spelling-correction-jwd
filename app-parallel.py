@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, session
 from flask_mysqldb import MySQL
-from jarowinklerdistance import *
-from preprocessing import *
+from models.jarowinklerdistance import *
+from utils.preprocessing import *
 from multiprocessing import Pool, cpu_count
 import time
 
