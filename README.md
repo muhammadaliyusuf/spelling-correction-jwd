@@ -6,6 +6,17 @@ A web application for spelling correction using Flask with Jaro-Winkler Distance
 
 This spelling correction application is built using the Flask framework and implements the Jaro-Winkler Distance algorithm. It improves search engine results by identifying and providing correction suggestions for misspelled words. The application uses multiprocessing to handle large datasets efficiently, ensuring fast response times even with extensive vocabulary references.
 
+## Application Overview
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+  <img src="https://github.com/muhammadaliyusuf/blog-sphere/blob/master/.ApplicationOverview/dashboard.png" style="width: 48%; height: auto;">
+</div>
+<br>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+  <img src="https://github.com/muhammadaliyusuf/blog-sphere/blob/master/.ApplicationOverview/correct-keyword.png" style="width: 48%; height: auto;">
+  <img src="https://github.com/muhammadaliyusuf/blog-sphere/blob/master/.ApplicationOverview/wrong-keyword.png" style="width: 48%; height: auto;">
+</div>
+
 ## Features
 
 - Spelling correction using Jaro-Winkler Distance algorithm (86% accuracy)
@@ -84,7 +95,7 @@ spelling-correction-jwd/
 │   ├── fonts/...
 │   ├── img/...
 │   ├── js/...
-│   └── scss/
+│   └── scss/...
 ├── templates/              # Folder for HTML templates
 │   ├── index.html
 │   └── result.html
@@ -112,7 +123,7 @@ Contributions are always welcome. Here are the steps to contribute:
 
 ## License
 
-This project was created as a requirement for the completion of a Bachelor's degree in Informatics Engineering at Universitas Trunojoyo Madura.
+This project is created for educational purpose as the requirement to graduate in Informatics Engineering at Universitas Trunojoyo Madura.
 
 ## Contact
 
